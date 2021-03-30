@@ -53,10 +53,6 @@ elif [ $STACK == "heroku-18" ]; then
 elif [ $STACK == "heroku-20" ]; then
 		apt_install libicu65, libssl1.1
    	fi	
-elif [ $STACK == "heroku-20" ]; then
-    		apt_install libicu66 libssl1.1	
-fi
-
 echo "Installing dotnet"
 install_dotnet $BUILD_DIR $CACHE_DIR $NETCORE_VERSION
 
