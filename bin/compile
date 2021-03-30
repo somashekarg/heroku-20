@@ -57,7 +57,6 @@ else
    	else
    		apt_install libunwind8 libicu60 openssl1.0
    	fi
-fi
 echo "Installing dotnet"
 install_dotnet $BUILD_DIR $CACHE_DIR $NETCORE_VERSION
 
