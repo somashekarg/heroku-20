@@ -46,7 +46,7 @@ elif [ $STACK == "heroku-16" ]; then
 		apt_install libicu55
    	else
    		apt_install libunwind8 libicu55
-   	
+   	fi
 elif [ $STACK == "heroku-18" ]; then
     apt_install libicu60, openssl1.0	
 elif [ $STACK == "heroku-20" ]; then
